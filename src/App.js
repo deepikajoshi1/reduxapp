@@ -4,11 +4,12 @@ import Shop from './components/Shop';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-
-      <Shop/>
-</div>
+    <>
+      <Navbar />
+      <div className="container">
+        <Shop />
+      </div>
+    </>
   );
 }
 
